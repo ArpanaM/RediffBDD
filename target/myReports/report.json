@@ -1,0 +1,137 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2023-08-09T03:11:42.813Z",
+    "line" : 2,
+    "name" : "Validate Login for Valid Inputs and display Successful message",
+    "description" : "",
+    "id" : "login-action;validate-login-for-valid-inputs-and-display-successful-message",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 9196230400,
+        "status" : "passed"
+      },
+      "line" : 3,
+      "name" : "user is on Home page",
+      "match" : {
+        "location" : "stepDefinations.TS001_LoginStepDef.user_is_on_home_page()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 1532842300,
+        "status" : "passed"
+      },
+      "line" : 4,
+      "name" : "user clicks on Signin link check title",
+      "match" : {
+        "location" : "stepDefinations.TS001_LoginStepDef.user_clicks_on_signin_link_check_title()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 317954500,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "user enters valid username password",
+      "match" : {
+        "location" : "stepDefinations.TS001_LoginStepDef.user_enters_valid_username_password()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 4662799500,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "clicks on Submit button",
+      "match" : {
+        "location" : "stepDefinations.TS001_LoginStepDef.clicks_on_submit_button()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 345755200,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "validate User and display successful message",
+      "match" : {
+        "location" : "stepDefinations.TS001_LoginStepDef.validate_user_and_display_successful_message()"
+      },
+      "keyword" : "Then "
+    } ]
+  }, {
+    "start_timestamp" : "2023-08-09T03:11:58.970Z",
+    "line" : 9,
+    "name" : "Validate Login for inValid Inputs and display error message",
+    "description" : "",
+    "id" : "login-action;validate-login-for-invalid-inputs-and-display-error-message",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 7453804000,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "user is on Home page",
+      "match" : {
+        "location" : "stepDefinations.TS001_LoginStepDef.user_is_on_home_page()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 1941598400,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "user clicks on Signin link check title",
+      "match" : {
+        "location" : "stepDefinations.TS001_LoginStepDef.user_clicks_on_signin_link_check_title()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 1994600,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "user enters invalid username or valid password",
+      "match" : {
+        "location" : "stepDefinations.TS001_LoginStepDef.user_enters_invalid_username_and_valid_password()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 2085321500,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "clicks on Submit button",
+      "match" : {
+        "location" : "stepDefinations.TS001_LoginStepDef.clicks_on_submit_button()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "validate error message",
+      "match" : {
+        "location" : "stepDefinations.TS001_LoginStepDef.validate_error_message()"
+      },
+      "keyword" : "Then "
+    } ]
+  } ],
+  "name" : "Login Action",
+  "description" : "",
+  "id" : "login-action",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/features/TS001_Login.feature",
+  "tags" : [ ]
+} ]
